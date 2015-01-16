@@ -1,0 +1,33 @@
+.maroon-back{background-color: #FF4081!important;}
+.violet-back{background-color: #AB47BC!important;}
+.blue-back{background-color: #1B39A8!important;}
+.yellow-back{background-color: #FFCD40!important;}
+.sky-back{background-color: #36C3FF!important;}
+.red-back{background-color: #FF5252!important;}
+.pink-back{background-color: #FFAB91!important;}
+.green-back{background-color: #8BC34A!important;}
+
+@font-face{
+  font-family:'Noto Regular';
+  src: url('fonts/NotoSansBengali-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Noto Bold';
+  src: url('fonts/NotoSansBengali-Bold.ttf');
+}
+
+body{
+  font-family: 'Noto Regular';
+}
+
+.button-wrap{margin-left:5%}
+
+.home-button{
+  margin:0.3%;
+  padding:0;
+  border-radius:0;
+  height: 50%;
+  color:#fff;
+  text-shadow:1px 1px 1px black;
+}
