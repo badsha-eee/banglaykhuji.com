@@ -54,8 +54,8 @@ a{color:#555;text-decoration:none;}
 }
 
 .desc {
-	display: block;
-	font-size: 2em;
+	font-size: .8em;
+	text-align: justify;
 	opacity: 0.5;
 	-webkit-transition: opacity 0.3s ease-in-out;
 	-moz-transition: opacity 0.3s ease-in-out;
@@ -118,7 +118,7 @@ a{color:#555;text-decoration:none;}
 .grid li:nth-child(4), .pop-box:nth-child(4) { background: #FFCD40; }
 .grid li:nth-child(5), .pop-box:nth-child(5) { background: #36C3FF; }
 .grid li:nth-child(6), .pop-box:nth-child(6) { background: #FF5252; }
-.grid li:nth-child(7), .pop-box:nth-child(7) { background: #FFAB91; }
+.grid li:nth-child(7), .pop-box:nth-child(7) { background: #2c3e50; }
 .grid li:nth-child(8), .pop-box:nth-child(8) { background: #8BC34A; }
 
 @media screen and (max-width: 63.125em) {
