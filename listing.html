@@ -7,23 +7,24 @@
 	<script src="js/jQuery.min.js"></script>
 </head>
 <body>
-  <nav>
-    <ul id="nav-mobile" class="right side-nav">
-      <li><a href="">one</a></li>
-      <li><a href="">one hundred</a></li>
-      <li><a href="">one thousand</a></li>
-      <li><a href="">one hundred</a></li>
-      <li><a href="">one thousand</a></li>
-    </ul>
-  </nav>
+<nav class="col s12 m12 l12 nav-wrapper">
+  <ul id="nav-mobile" class="right side-nav">
+    <li><a href="">one</a></li>
+    <li><a href="">one hundred</a></li>
+    <li><a href="">one thousand</a></li>
+    <li><a href="">one hundred</a></li>
+    <li><a href="">one thousand</a></li>
+  </ul>
+  <ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a></ul>
+</nav>
   <div class="container">
     <div class="row">
       <div class="input-field">
-        <span class="col s4">
-          <input type="text" name="search-text">
+        <span class="col s10 m4 l4">
+          <input id="search" type="text" name="search-text">
           <label for="search-text">ki khujchen?</label>
         </span>
-        <span class="col s3">
+        <span class="col s10 m3 l3">
           <select name="" id="">
             <option value="">Choose your option</option>
             <option value="one">One</option>
@@ -33,7 +34,7 @@
             <option value="one">One</option>
           </select>
         </span>
-        <span class="col s3">
+        <span class="col s10 m3 l3">
           <select name="" id="">
             <option value="">Choose your option</option>
             <option value="one">One</option>
@@ -43,10 +44,11 @@
             <option value="one">One</option>
           </select>
         </span>
-        <button class="btn primary">Submit</button>
+        <button class="btn waves-effect waves-light"><i class="mdi-action-search"></i>Submit</button>
       </div>
     </div>
   </div>
+
 
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
