@@ -1,0 +1,8 @@
+.card-title .mdi-navigation-close{
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	font-size: 18px;
+	color: red;
+	background-color: #FFD4D4;
+}
